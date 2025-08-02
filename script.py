@@ -1,3 +1,9 @@
+def run():
+    print("✅ GitHub Actions workflow is working!")
+
+if __name__ == "__main__":
+    run()
+'''
 from playwright.sync_api import sync_playwright
 
 def run():
@@ -11,3 +17,4 @@ def run():
 
 if __name__ == "__main__":
   run()
+'''
