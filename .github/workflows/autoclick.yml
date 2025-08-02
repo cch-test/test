@@ -2,7 +2,7 @@ name: Run Web Click Script
 on:
   schedule:
     - cron: "*/5 * * * *"
-    - workflow_dispatch:
+  workflow_dispatch:
 jobs:
   run-script:
     runs-on: ubuntu-latest
